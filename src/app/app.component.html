@@ -1,0 +1,41 @@
+
+
+
+<h1>Welcome to Calculate Me !</h1>
+<div class="container">
+ <div class="calc">
+  <input type="input" class="text" [(ngModel)]="inputText"  placeholder="0">
+  <div class="row">
+   <div class="content">
+    <button class="button" (click)="clearText()">C</button>
+    <button class="button" (click)="calculate('%')">%</button>
+    <button class="button" (click)="calculate('+')">M+</button>
+    <button class="button" (click)="calculate('-')">M-</button>
+   </div>
+  </div>
+  <div class="row">
+    <button class="button" (click)="calculate(7)">7</button>
+    <button class="button" (click)="calculate(8)">8</button>
+    <button class="button" (click)="calculate(9)">9</button>
+    <button class="button" (click)="calculate('*')">*</button>
+  </div>
+  <div class="row">
+    <button class="button" (click)="calculate(4)">4</button>
+    <button class="button" (click)="calculate(5)">5</button>
+    <button class="button" (click)="calculate(6)">6</button>
+    <button class="button" (click)="calculate('/')">/</button>
+  </div>
+  <div class="row">
+    <button class="button" (click)="calculate(1)">1</button>
+    <button class="button" (click)="calculate(2)">2</button>
+    <button class="button" (click)="calculate(3)">3</button>
+    <button class="button" (click)="calculate('+')">+</button>
+  </div>
+  <div class="row">
+    <button class="button" (click)="calculate(0)">0</button>
+    <button class="button" (click)="Result()">=</button>
+    <button class="button" (click)="calculate('.')">.</button>
+    <button class="button" (click)="calculate('-')">-</button>
+  </div>
+ </div>
+</div>

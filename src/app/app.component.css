@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 40px;
+    width: 230px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.content{
+    margin-top: 20px;
+}
+.row{
+    margin-top: 3px;
+}
+.content .button{
+    width: 55px;
+    margin: 3px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button{
+    width: 50px;
+    margin: 3px 6px;
+    padding: 7px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
